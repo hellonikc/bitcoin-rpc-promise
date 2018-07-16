@@ -1,0 +1,37 @@
+{
+  "name": "bitcoin-rpc-promise",
+  "version": "1.0.1",
+  "description": "A modern promise based node.js library for communicating with Bitcoin daemon.",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha --timeout=5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bitcoin/bitcoin.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "rpc"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bitcoin/bitcoin/issues"
+  },
+  "homepage": "https://github.com/bitcoin/bitcoin",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
