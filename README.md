@@ -15,7 +15,7 @@ npm install --save bitcoin-rpc-promise
 Start bitcoin daemon with rpc support:
 
 ```bash
-bitcoind --server=1 --rpcuser=user --rpcpassword=password
+./bitcoind --server=1 --rpcuser=user --rpcpassword=password
 ```
 
 Connect to daemon endpoint and send rpc commands:
@@ -25,7 +25,13 @@ const BitcoinRpc = require('bitcoin-rpc-promise');
 
 let btc = new BitcoinRpc('http://user:password@localhost:8332');
 
-btc.call('getblockhash', [100]).then(result) => {
+// call named wrappers
+btc.getBlockHash(0).then(result => {
+  console.log(result);
+});
+
+// or call raw commands
+btc.call('getblockhash', [100]).then(result => {
   console.log(result);
 });
 ```
