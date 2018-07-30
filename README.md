@@ -3,15 +3,16 @@
 A modern promise based node.js library for communicating with Bitcoin daemon.
 
 
-
-[![Dependency Status](https://img.shields.io/david/bitcoin-rpc-promise/bitcoin-rpc-promise.svg?style=flat-square)](https://david-dm.org/bitcoin-rpc-promise/bitcoin-rpc-promise)
+[![NPM version][npm-image]][npm-url]
+[![Dependency Status](https://img.shields.io/david/hellonikc/bitcoin-rpc-promise.svg?style=flat-square)](https://david-dm.org/hellonikc/bitcoin-rpc-promise)
 [![Known Vulnerabilities](https://snyk.io/test/npm/bitcoin-rpc-promise/badge.svg?style=flat-square)](https://snyk.io/test/npm/bitcoin-rpc-promise)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fhellonikc%2Fbitcoin-rpc-promise.svg?type=shield)]
-(https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fhellonikc%2Fbitcoin-rpc-promise?ref=badge_shield)
 [![Downloads][downloads-image]][downloads-url]
 
+[downloads-image]: https://img.shields.io/npm/dm/bitcoin-rpc-promise.svg?style=flat-square
+[downloads-url]: https://www.npmjs.com/package/bitcoin-rpc-promise
 
-
+[npm-image]: https://img.shields.io/npm/v/bitcoin-rpc-promise.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/bitcoin-rpc-promise
 ## Install
 
 ```
