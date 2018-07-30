@@ -2,7 +2,7 @@
 
 A modern promise based node.js library for communicating with Bitcoin daemon.
 
-
+[![npm package](https://nodei.co/npm/bitcoin-rpc-promise.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/bitcoin-rpc-promise/)
 [![NPM version][npm-image]][npm-url]
 [![Dependency Status](https://img.shields.io/david/hellonikc/bitcoin-rpc-promise.svg?style=flat-square)](https://david-dm.org/hellonikc/bitcoin-rpc-promise)
 [![Known Vulnerabilities](https://snyk.io/test/npm/bitcoin-rpc-promise/badge.svg?style=flat-square)](https://snyk.io/test/npm/bitcoin-rpc-promise)
