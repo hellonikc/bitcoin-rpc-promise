@@ -7,6 +7,7 @@ A modern promise based node.js library for communicating with Bitcoin daemon.
 [![Dependency Status](https://img.shields.io/david/hellonikc/bitcoin-rpc-promise.svg?style=flat-square)](https://david-dm.org/hellonikc/bitcoin-rpc-promise)
 [![Known Vulnerabilities](https://snyk.io/test/npm/bitcoin-rpc-promise/badge.svg?style=flat-square)](https://snyk.io/test/npm/bitcoin-rpc-promise)
 [![Downloads][downloads-image]][downloads-url]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhellonikc%2Fbitcoin-rpc-promise.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhellonikc%2Fbitcoin-rpc-promise?ref=badge_shield)
 
 [downloads-image]: https://img.shields.io/npm/dm/bitcoin-rpc-promise.svg?style=flat-square
 [downloads-url]: https://www.npmjs.com/package/bitcoin-rpc-promise
@@ -48,3 +49,7 @@ btc.call('getblockhash', [100]).then(result => {
 ## Documentation
 
 [Bitcoin Wiki](https://en.bitcoin.it/wiki/API_reference_%28JSON-RPC%29)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhellonikc%2Fbitcoin-rpc-promise.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhellonikc%2Fbitcoin-rpc-promise?ref=badge_large)
