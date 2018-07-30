@@ -1,7 +1,5 @@
 ## bitcoin-rpc-promise
 
-[Source Code](https://github.com/onetomonejerry/bitcoin-rpc-promise.git)
-
 A modern promise based node.js library for communicating with Bitcoin daemon.
 
 ## Install
