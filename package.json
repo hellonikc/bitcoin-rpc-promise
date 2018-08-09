@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-rpc-promise",
-  "version": "2.1.3",
+  "version": "2.1.5",
   "description": "A modern promise based node.js library for communicating with Bitcoin daemon via RPC.",
   "main": "index.js",
   "files": [

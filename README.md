@@ -3,6 +3,7 @@
 A modern promise based node.js library for communicating with Bitcoin daemon.
 
 [![npm package](https://nodei.co/npm/bitcoin-rpc-promise.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/bitcoin-rpc-promise/)
+
 [![NPM version][npm-image]][npm-url]
 [![Dependency Status](https://img.shields.io/david/hellonikc/bitcoin-rpc-promise.svg?style=flat-square)](https://david-dm.org/hellonikc/bitcoin-rpc-promise)
 [![Known Vulnerabilities](https://snyk.io/test/npm/bitcoin-rpc-promise/badge.svg?style=flat-square)](https://snyk.io/test/npm/bitcoin-rpc-promise)
@@ -11,9 +12,9 @@ A modern promise based node.js library for communicating with Bitcoin daemon.
 
 [downloads-image]: https://img.shields.io/npm/dm/bitcoin-rpc-promise.svg?style=flat-square
 [downloads-url]: https://www.npmjs.com/package/bitcoin-rpc-promise
-
 [npm-image]: https://img.shields.io/npm/v/bitcoin-rpc-promise.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/bitcoin-rpc-promise
+
 ## Install
 
 ```
@@ -36,12 +37,17 @@ const BitcoinRpc = require('bitcoin-rpc-promise');
 let btc = new BitcoinRpc('http://user:password@localhost:8332');
 
 // call named wrappers
-btc.getBlockHash(0).then(result => {
+btc.getBlockHash(100).then(result => {
+  console.log(result);
+});
+
+// or call named wrappers with all lower case
+btc.getblockhash(100).then(result => {
   console.log(result);
 });
 
 // or call raw commands
-btc.call('getblockhash', [100]).then(result => {
+btc.call('getblockhash', 100).then(result => {
   console.log(result);
 });
 ```
