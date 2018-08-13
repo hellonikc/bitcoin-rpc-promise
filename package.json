@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-rpc-promise",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "A modern promise based node.js library for communicating with Bitcoin daemon via RPC.",
   "main": "index.js",
   "files": [
@@ -23,7 +23,7 @@
     "jsonrpc"
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "author": "",
   "bugs": {
@@ -33,8 +33,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.10",
-    "request": "^2.87.0",
-    "request-promise-native": "^1.0.5"
+    "node-jsonrpc-request": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
